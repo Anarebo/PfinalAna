@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/proy-integ-ar'),
+      dir: require('path').join(__dirname, './coverage/pinteg-ar'),
       subdir: '.',
       reporters: [
         { type: 'html' },

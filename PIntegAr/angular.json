@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProyIntegAR": {
+    "PIntegAr": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proy-integ-ar",
+            "outputPath": "dist/pinteg-ar",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ProyIntegAR:build:production"
+              "browserTarget": "PIntegAr:build:production"
             },
             "development": {
-              "browserTarget": "ProyIntegAR:build:development"
+              "browserTarget": "PIntegAr:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ProyIntegAR:build"
+            "browserTarget": "PIntegAr:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "ProyIntegAR"
+  "defaultProject": "PIntegAr"
 }
